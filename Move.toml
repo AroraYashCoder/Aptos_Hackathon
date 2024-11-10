@@ -1,0 +1,16 @@
+[package]
+name = "TokenTrivia"
+version = "1.0.0"
+authors = []
+
+[addresses]
+QuizApp = "306c242f9a09ed4c6c07688e14a2e1504ee043c31d8740b116d037dd17c82261"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
